@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+
+      
+  import React, { useState } from "react";
 
 const CATEGORIES = [
   "Borsa",
@@ -123,6 +125,7 @@ export default function App() {
         >
           Dì cosa hai creato. Ricevi le parole per venderlo.
         </h1>
+
         <p style={{ fontSize: 16, lineHeight: 1.6, color: "#D8CBB8", margin: "0 0 32px", maxWidth: 480 }}>
           Scegli la categoria, descrivi il pezzo in poche parole e l'AI genera
           subito un hook e una CTA pronti da usare sotto il tuo prossimo reel.
@@ -245,3 +248,5 @@ export default function App() {
     </div>
   );
 }
+  
+
